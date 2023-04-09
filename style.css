@@ -23,7 +23,6 @@ header ul{
     gap: 16px;
 }
 
-
 button {
 
     background-color: #3882F6;
@@ -32,14 +31,26 @@ button {
     height: 40px;
     border-radius: 5px;
     border: none;
-    font-weight: bold;
     font-size: 18px;
+}
+
+footer {
+
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+    padding: 40px;
+}
+
+.bold 
+{
+    font-weight: bolder;
 }
 
 .logo-text
 {
     font-size: 24px;
-    font-weight: bold;
     color: #f9faf8;
 }
 
@@ -68,7 +79,6 @@ button {
 .hero-txt h1{
     max-width: 400px;
     font-size: 48px;
-    font-weight: bolder;
     color: #f9faf8;
 }
 
@@ -161,4 +171,29 @@ button {
     text-align: right;
     font-weight: bolder;
     color: #1f2937;
+}
+
+.section-4 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.sign-up-modal {
+
+    display: flex;
+    background-color: #3882F6;
+    width: 1200px;
+    border: 6px solid #3882F6;
+    border-radius: 10px;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.sign-up-modal button{
+    border: 2px solid white;
 }
